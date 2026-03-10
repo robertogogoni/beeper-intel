@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-10T00:00:00Z",
+    "source": "Synthesis of GitHub audit, docs audit, Dev Community (2,161 chunks), Self-hosted bridges (10,911 chunks)",
+    "count": 9
+  },
+  "signals": [
+    {
+      "id": "agentremote",
+      "title": "AgentRemote: AI Agent Platform Pivot",
+      "severity": "critical",
+      "confidence": "confirmed",
+      "summary": "Beeper is building a platform to host AI agents inside chat conversations. Originally named 'ai-bridge', renamed to 'agentremote' in early 2026.",
+      "evidence": [
+        "github.com/beeper/agentremote - 11 stars, daily commits, Go codebase",
+        "Subdirectories: bridges/ai, bridges/codex, bridges/openclaw, bridges/opencode",
+        "batuhan (Mar 6, 2026): '3 bridges in AI bridge very close to ready for testing'",
+        "bridge-manager PR #72 (batuhan): 'Add AI bridge' - OPEN"
+      ],
+      "implications": [
+        "Beeper evolving from 'all your chats' to 'all your chats AND agents'",
+        "Codex, OpenClaw, OpenCode can be accessed through Beeper chat",
+        "Full history, live streaming, tool approvals, encrypted delivery",
+        "Potential to become the unified interface for AI agent interaction"
+      ]
+    },
+    {
+      "id": "ai-chats",
+      "title": "AI Chats: Imminent Feature Launch",
+      "severity": "high",
+      "confidence": "confirmed",
+      "summary": "Built-in AI chat capability coming to Beeper very soon, with image analysis planned.",
+      "evidence": [
+        "batuhan (Mar 4, 2026): 'Coming very soon' regarding AI Chats",
+        "Image forwarding for questions, image descriptions planned",
+        "Translations already built but unreleased (~2 months in nightly)",
+        "Zero documentation exists for any AI features"
+      ],
+      "implications": [
+        "Beeper Plus feature tier expansion",
+        "Competition with native AI in iMessage, Google Messages",
+        "MCP + AI Chats creates powerful local-first AI messaging"
+      ]
+    },
+    {
+      "id": "headless-mode",
+      "title": "Headless Desktop: Server-Side Beeper",
+      "severity": "high",
+      "confidence": "confirmed-in-progress",
+      "summary": "Beeper is working on a headless/hostable version of Desktop API that doesn't require the GUI app.",
+      "evidence": [
+        "batuhan (Dec 17, 2025): 'Working on headless/hostable Desktop API with decryption and webhooks'",
+        "batuhan (Sep 2, 2025): 'We can eventually build a headless version where you can run Beeper Desktop on a server'",
+        "Community demand: docker-beeper (56 stars) as workaround"
+      ],
+      "implications": [
+        "Server deployments without Docker+GUI workaround",
+        "Enables real webhooks and background processing",
+        "Makes n8n/Zapier/CRM integrations viable",
+        "Could be a Beeper Plus/Enterprise feature"
+      ]
+    },
+    {
+      "id": "webhooks",
+      "title": "Webhooks: #1 Community Request",
+      "severity": "high",
+      "confidence": "planned",
+      "summary": "Webhooks are the most requested developer feature, confirmed as planned but no ETA.",
+      "evidence": [
+        "batuhan (Dec 12, 2025): Confirmed webhooks planned, '#1 community request'",
+        "WebSocket events (v4.2.557, Feb 2026) as partial substitute but underdocumented",
+        "Multiple n8n integration requests in Dev Community",
+        "batuhan: 'I'm a heavy user of N8N'"
+      ],
+      "implications": [
+        "Will likely ship alongside headless mode",
+        "Enables real-time CRM, task extraction, notification workflows",
+        "WebSocket events may be deprecated once webhooks land"
+      ]
+    },
+    {
+      "id": "desktop-api-maturity",
+      "title": "Desktop API Ecosystem Maturing Rapidly",
+      "severity": "medium",
+      "confidence": "confirmed",
+      "summary": "6 official SDKs, OpenAPI spec, 11+ community clients. All auto-generated via Stainless from the OpenAPI spec.",
+      "evidence": [
+        "TypeScript SDK v4.5.0, Python v4.1.296, Go v0.4.0, CLI v0.2.0, PHP, SQL",
+        "chat-adapter-matrix v0.2.0 for Vercel Chat SDK",
+        "30+ community CLI tools and SDKs",
+        "REST /v1 migration from gRPC /v0 complete"
+      ],
+      "implications": [
+        "Stainless auto-generation means rapid SDK updates",
+        "Low barrier for new integrations",
+        "SQL SDK hints at database-level integration experiments"
+      ]
+    },
+    {
+      "id": "mcp-expansion",
+      "title": "MCP as Primary Developer Interface",
+      "severity": "medium",
+      "confidence": "confirmed",
+      "summary": "Beeper is positioning MCP as the main way developers interact with chat data, supporting 9 MCP clients.",
+      "evidence": [
+        "Supported clients: Claude Desktop, Claude Code, Cursor, VS Code, Raycast, Windsurf, Warp, Codex, Gemini CLI",
+        "Built-in MCP server in Beeper Desktop (Settings > Developers > MCP)",
+        "Claude Desktop Extension (.dxt) shipped",
+        "mcp-android for Android devices"
+      ],
+      "implications": [
+        "Every AI-powered IDE can access chat data",
+        "MCP becomes the 'AI interface' while REST is the 'developer interface'",
+        "Beeper as a data source for AI agents across all coding tools"
+      ]
+    },
+    {
+      "id": "bridge-bounties",
+      "title": "Bridge Bounty Program: Up to $50K",
+      "severity": "medium",
+      "confidence": "confirmed",
+      "summary": "Beeper offers substantial bounties for new bridges: WeChat, Snapchat, Teams, Viber, LINE, dating apps.",
+      "evidence": [
+        "Blog post: blog.beeper.com/2025/10/28/build-a-beeper-bridge/",
+        "Max bounty: $50,000",
+        "Technology required: Matrix bridgev2 interface in Golang",
+        "Contact: kishan@beeper.com"
+      ],
+      "implications": [
+        "Aggressive expansion of supported networks",
+        "WeChat and Teams are highest-value targets",
+        "Community bridges can earn significant income"
+      ]
+    },
+    {
+      "id": "clay-integration",
+      "title": "Clay.earth Integration Potential",
+      "severity": "low",
+      "confidence": "speculative",
+      "summary": "Clay (personal CRM) is under the Automattic roof alongside Beeper. Integration hinted but no ETA.",
+      "evidence": [
+        "batuhan (Sep 6, 2025): 'We are under the same roof, integrations will come, no ETA'",
+        "clay.earth already ingests messaging data",
+        "Automattic portfolio synergy opportunity"
+      ],
+      "implications": [
+        "Beeper + Clay = messaging-aware CRM",
+        "Could be killer feature for sales/relationship management",
+        "Automattic has WordPress, Tumblr, Clay, Beeper, Pocket Casts under one roof"
+      ]
+    },
+    {
+      "id": "chat-sdk-adapters",
+      "title": "Vercel Chat SDK Adapters",
+      "severity": "medium",
+      "confidence": "confirmed",
+      "summary": "Beeper is building adapters for Vercel's Chat SDK, enabling bot/integration development using modern AI frameworks.",
+      "evidence": [
+        "chat-adapter-matrix (12 stars, v0.2.0, TypeScript)",
+        "desktop-api-chat-adapter (0 stars, TypeScript)",
+        "Works with ALL bridged networks"
+      ],
+      "implications": [
+        "Developers can build Beeper bots using Vercel AI SDK patterns",
+        "Bridges the gap between AI frameworks and chat platforms",
+        "Potential for ecosystem of Chat SDK-based Beeper integrations"
+      ]
+    }
+  ]
+}

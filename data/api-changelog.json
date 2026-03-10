@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-10T00:00:00Z",
+    "source": "developers.beeper.com/desktop-api/changelog + Dev Community threads",
+    "count": 4
+  },
+  "versions": [
+    {
+      "version": "v4.2.557",
+      "date": "2026-02-13",
+      "added": [
+        { "endpoint": "GET /v1/info", "description": "Server discovery endpoint with metadata and runtime info" },
+        { "endpoint": "GET /v1/ws", "description": "WebSocket events with per-chat subscriptions" },
+        { "endpoint": "POST /v1/chats/{chatID}/messages/{messageID}/reactions", "description": "Add reaction to a message" },
+        { "endpoint": "DELETE /v1/chats/{chatID}/messages/{messageID}/reactions", "description": "Delete reaction from a message" },
+        { "endpoint": "POST /oauth/introspect", "description": "Token introspection for validation" },
+        { "endpoint": "GET /v1/accounts/{accountID}/contacts/list", "description": "List contacts for a specific account" }
+      ],
+      "changed": [
+        "Chat creation supports mode=start for DMs",
+        "Account schema no longer returns 'network' field"
+      ],
+      "significance": "Major release: WebSocket support, reactions, token introspection"
+    },
+    {
+      "version": "v4.2.509",
+      "date": "2026-01-27",
+      "added": [
+        { "endpoint": "GET /v1/assets/serve", "description": "Asset streaming with range requests (mxc://, localmxc://, file://)" }
+      ],
+      "changed": [],
+      "significance": "Media serving capability"
+    },
+    {
+      "version": "v4.2.499",
+      "date": "2026-01-23",
+      "added": [
+        { "endpoint": "PUT /v1/chats/{chatID}/messages/{messageID}", "description": "Edit messages" },
+        { "endpoint": "POST /v1/assets/upload", "description": "Upload file (multipart)" },
+        { "endpoint": "POST /v1/assets/upload/base64", "description": "Upload file (base64)" }
+      ],
+      "changed": [
+        "Message schema adds 'type' and 'linkedMessageID' fields",
+        "Message attachment support via uploadID"
+      ],
+      "significance": "Message editing and file upload support"
+    },
+    {
+      "version": "v4.1.294",
+      "date": "2025-10-16",
+      "added": [],
+      "changed": [
+        "Major migration from gRPC /v0 to RESTful /v1",
+        "All endpoints moved to REST architecture"
+      ],
+      "significance": "Architecture shift from gRPC to REST"
+    }
+  ],
+  "total_endpoints": {
+    "discovery": 2,
+    "accounts": 2,
+    "chats": 5,
+    "messages": 4,
+    "search": 2,
+    "assets": 3,
+    "websocket": 1,
+    "mcp": 1,
+    "app_control": 1,
+    "total": 21
+  }
+}

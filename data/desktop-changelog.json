@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-10T00:00:00Z",
+    "source": "beeper.com/changelog/desktop + developers.beeper.com docs audit",
+    "count": 4
+  },
+  "versions": [
+    {
+      "version": "v4.2.630",
+      "date": "2026-03-09",
+      "new_features": [
+        "Added search bar to Settings window"
+      ],
+      "fixes": [
+        "iMessage reactions fixed on macOS Tahoe and Sequoia",
+        "Performance improvements for faster chat catchup on launch",
+        "Fixed missing names/avatars for chat participants",
+        "Fixed unread count bugs and chats in wrong space after sidebar redesign",
+        "Remind Me correctly uses 'If no reply' default setting",
+        "Fixed broken icons on Windows and Linux",
+        "Fixed incomplete contact list when creating group Google Messages chats"
+      ]
+    },
+    {
+      "version": "v4.2.605",
+      "date": "2026-03-03",
+      "new_features": [
+        "Redesigned account filters and sidebar (Space Bar)"
+      ],
+      "fixes": [
+        "Multi-message forwarding restored",
+        "Display name issues resolved",
+        "Windows/Linux 'Beeper is already running' warning fixed",
+        "Image rotation direction fixed",
+        "On-Device Telegram connection improvements for clock sync issues"
+      ]
+    },
+    {
+      "version": "v4.2.587",
+      "date": "2026-02-24",
+      "new_features": [],
+      "fixes": [
+        "Storage management shows accurate disk recovery calculations",
+        "Warning for installing newer version while older running",
+        "Location messages fully deleted on removal",
+        "Menubar functionality fixed",
+        "Signal replies, reactions, sent messages working for all users",
+        "Old message deletion for Instagram and Facebook chats"
+      ]
+    },
+    {
+      "version": "v4.2.564",
+      "date": "2026-02-17",
+      "new_features": [
+        "Disk usage management via Settings > Storage"
+      ],
+      "fixes": [
+        "Emoji rendering on Macs with Lockdown Mode",
+        "Picture-in-Picture video improvements",
+        "Telegram login retry for failed 2FA",
+        "iMessage chat archiving enhanced",
+        "Extra windows on launch eliminated",
+        "Messenger audio message transcription fixed"
+      ]
+    }
+  ],
+  "note": "Desktop changelog at beeper.com/changelog/desktop uses dynamic loading. Only latest version renders fully on initial load. Older entries require JS execution."
+}

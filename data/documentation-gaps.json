@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-10T00:00:00Z",
+    "source": "Cross-reference of developers.beeper.com docs vs. Dev Community threads + GitHub repos",
+    "count": 11
+  },
+  "gaps": [
+    {
+      "id": 1,
+      "area": "REST API Reference",
+      "severity": "high",
+      "status": "missing",
+      "issue": "The main page links to /desktop-api-reference/ but this URL returns 404. REST endpoints are only documented indirectly through SDK references and the API changelog.",
+      "impact": "Developers who want raw REST docs (without SDK) have no single reference page.",
+      "source": "docs audit"
+    },
+    {
+      "id": 2,
+      "area": "WebSocket Events",
+      "severity": "high",
+      "status": "undocumented",
+      "issue": "GET /v1/ws was added in v4.2.557 (Feb 13, 2026) per API changelog but there is no dedicated documentation page describing event types, subscription format, or payload schemas.",
+      "impact": "Developers must reverse-engineer WebSocket event formats.",
+      "source": "docs audit"
+    },
+    {
+      "id": 3,
+      "area": "MCP Tools List",
+      "severity": "medium",
+      "status": "incomplete",
+      "issue": "The MCP documentation page focuses entirely on client setup. It does not list available MCP tools, their parameters, or capabilities.",
+      "impact": "Developers must connect a client and discover tools at runtime.",
+      "source": "docs audit"
+    },
+    {
+      "id": 4,
+      "area": "Translation Feature",
+      "severity": "medium",
+      "status": "missing",
+      "issue": "Translation feature exists in nightly builds for ~2 months (per batuhan, Mar 4, 2026) but has zero documentation or blog coverage.",
+      "impact": "Users on nightly don't know the feature exists. No API docs for translation integration.",
+      "source": "Dev Community"
+    },
+    {
+      "id": 5,
+      "area": "AI Features / AI Chats",
+      "severity": "high",
+      "status": "missing",
+      "issue": "Blog (Nov 2025) mentions experimental AI in chats. Community says 'AI Chats coming very soon' (Mar 2026). No developer docs exist.",
+      "impact": "No programmatic access to AI features documented.",
+      "source": "Dev Community + blog"
+    },
+    {
+      "id": 6,
+      "area": "AI Bridge / AgentRemote",
+      "severity": "high",
+      "status": "missing",
+      "issue": "batuhan says '3 bridges in AI bridge very close to ready for testing' (Mar 6, 2026). Code at github.com/beeper/agentremote. Zero docs on developers.beeper.com.",
+      "impact": "AI Bridge is unknown to anyone not in the Matrix developer chat.",
+      "source": "Dev Community + GitHub"
+    },
+    {
+      "id": 7,
+      "area": "Webhooks",
+      "severity": "critical",
+      "status": "missing",
+      "issue": "Webhooks are the #1 community request (confirmed by batuhan Dec 2025). Still not available or documented. WebSocket events (v4.2.557) may be partial substitute.",
+      "impact": "Real-time integrations (n8n, Zapier, CRM) require polling workarounds.",
+      "source": "Dev Community"
+    },
+    {
+      "id": 8,
+      "area": "Headless Mode",
+      "severity": "high",
+      "status": "missing",
+      "issue": "batuhan confirmed working on 'headless/hostable Desktop API with decryption/webhooks' (Dec 2025). No docs, no timeline, no progress updates.",
+      "impact": "Server/Docker deployments impossible without full desktop app running.",
+      "source": "Dev Community"
+    },
+    {
+      "id": 9,
+      "area": "Send-Later API",
+      "severity": "medium",
+      "status": "missing",
+      "issue": "App has send-later/scheduled messages. batuhan says 'we'll have API support for most features' (Feb 2026). No API endpoint exists yet.",
+      "impact": "Cannot schedule messages programmatically.",
+      "source": "Dev Community"
+    },
+    {
+      "id": 10,
+      "area": "Python SDK Installation",
+      "severity": "medium",
+      "status": "friction",
+      "issue": "Python SDK install requires SSH access to private GitHub repo. Not on PyPI. Higher barrier than TypeScript (npm) or Go (public module).",
+      "impact": "New developers can't easily install the Python SDK.",
+      "source": "docs audit"
+    },
+    {
+      "id": 11,
+      "area": "Dynamic Changelog Page",
+      "severity": "low",
+      "status": "broken",
+      "issue": "Desktop changelog at beeper.com/changelog/desktop uses dynamic loading. Only latest version renders on initial load. Older entries require JS execution.",
+      "impact": "Cannot scrape/archive older changelog entries. Automated monitoring breaks.",
+      "source": "docs audit"
+    }
+  ]
+}

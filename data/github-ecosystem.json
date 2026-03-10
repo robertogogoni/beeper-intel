@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-10T00:00:00Z",
+    "source": "GitHub API audit of github.com/beeper + community repos",
+    "count": {
+      "official_repos": 125,
+      "archived_repos": 8,
+      "active_repos": 92,
+      "recently_updated_30d": 41,
+      "community_repos": 35
+    }
+  },
+  "official_repos": {
+    "top_starred": [
+      { "name": "bridge-manager", "stars": 1290, "language": "Go", "description": "Self-hosted bridge management tool", "archived": false, "updated": "2026-03-06" },
+      { "name": "self-host", "stars": 1065, "language": null, "description": "Self-hosting documentation", "archived": true, "updated": null },
+      { "name": "imessage", "stars": 1032, "language": "Go", "description": "Matrix-iMessage puppeting bridge", "archived": true, "updated": null },
+      { "name": "beepy", "stars": 629, "language": "Shell", "description": "Beepy hardware device", "archived": false, "updated": "2026-03-05" },
+      { "name": "themes", "stars": 156, "language": "CSS", "description": "Community CSS themes for Beeper Desktop", "archived": false, "updated": "2026-03-03" },
+      { "name": "mac-registration-provider", "stars": 150, "language": "Go", "description": "iMessage registration data from Mac", "archived": false, "updated": null },
+      { "name": "phone-registration-provider", "stars": 119, "language": "Logos", "description": "iMessage registration on jailbroken iPhone", "archived": false, "updated": null },
+      { "name": "linkedin", "stars": 102, "language": "Python", "description": "LinkedIn bridge", "archived": true, "updated": null },
+      { "name": "barcelona", "stars": 70, "language": "Swift", "description": "Swift iMessage framework", "archived": false, "updated": null },
+      { "name": "themes", "stars": 156, "language": "CSS", "description": "Community themes", "archived": false, "updated": "2026-03-03" }
+    ],
+    "very_active": [
+      { "name": "platform-imessage", "stars": 1, "language": "Swift", "description": "On-device iMessage integration for Desktop", "updated": "2026-03-09", "cadence": "daily" },
+      { "name": "agentremote", "stars": 11, "language": "Go", "description": "All your agents in Beeper", "updated": "2026-03-09", "cadence": "daily" },
+      { "name": "metabase", "stars": 0, "language": "Clojure", "description": "Beeper's BI fork", "updated": "2026-03-09", "cadence": "daily" },
+      { "name": "desktop-api-js", "stars": 21, "language": "TypeScript", "description": "TypeScript SDK v4.5.0", "updated": "2026-03-08", "cadence": "weekly" },
+      { "name": "desktop-api-cli", "stars": 5, "language": "Go", "description": "CLI tool v0.2.0", "updated": "2026-03-08", "cadence": "weekly" },
+      { "name": "desktop-api-go", "stars": 5, "language": "Go", "description": "Go SDK", "updated": "2026-03-08", "cadence": "weekly" },
+      { "name": "chat-adapter-matrix", "stars": 12, "language": "TypeScript", "description": "Matrix adapter for Vercel Chat SDK v0.2.0", "updated": "2026-03-08", "cadence": "weekly" },
+      { "name": "bridge-manager", "stars": 1290, "language": "Go", "description": "Self-hosted bridge tool v0.14.0", "updated": "2026-03-06", "cadence": "weekly" }
+    ],
+    "archived": [
+      { "name": "imessage", "stars": 1032, "reason": "Replaced by platform-imessage (Swift)" },
+      { "name": "self-host", "stars": 1065, "reason": "Docs moved to developers.beeper.com" },
+      { "name": "linkedin", "stars": 102, "reason": "Merged into mautrix/linkedin" },
+      { "name": "linkedin-messaging-api", "stars": 61, "reason": "Deprecated, moved to linkedin repo" },
+      { "name": "sdk-docs", "stars": 42, "reason": "Docs moved to developers.beeper.com" },
+      { "name": "synapse-legacy-fork", "stars": 7, "reason": "Old Synapse fork no longer needed" },
+      { "name": "mautrix-go", "stars": 3, "reason": "Superseded by mautrix org" },
+      { "name": "signald", "stars": 2, "reason": "Old Signal bridge replaced" }
+    ]
+  },
+  "community_repos": {
+    "cli_tools": [
+      { "name": "beepctl", "author": "blqke", "stars": 30, "language": "TypeScript", "description": "CLI for messaging from terminal", "url": "https://github.com/blqke/beepctl" },
+      { "name": "beeper-cli", "author": "KrauseFx", "stars": 25, "language": "Go", "description": "Read-only browse/search chat history", "url": "https://github.com/KrauseFx/beeper-cli" },
+      { "name": "BeeperPS", "author": "AndrewPla", "stars": 8, "language": "PowerShell", "description": "PowerShell module for Beeper API", "url": "https://github.com/AndrewPla/BeeperPS" },
+      { "name": "beeper-cli", "author": "foeken", "stars": 2, "language": "Go", "description": "CLI for Desktop API", "url": "https://github.com/foeken/beeper-cli" },
+      { "name": "desktop-api-cli", "author": "beeper", "stars": 5, "language": "Go", "description": "Official CLI v0.2.0", "url": "https://github.com/beeper/desktop-api-cli" },
+      { "name": "beeper-api-cli", "author": "nerveband", "stars": 0, "language": "Go", "description": "Cross-platform CLI", "url": "https://github.com/nerveband/beeper-api-cli" }
+    ],
+    "mcp_servers": [
+      { "name": "desktop-api-mcp", "author": "beeper", "stars": 3, "language": "TypeScript", "description": "Claude Desktop Extension (official)", "url": "https://github.com/beeper/desktop-api-mcp" },
+      { "name": "mcp-android", "author": "beeper", "stars": 8, "language": "Kotlin", "description": "Android MCP server (official)", "url": "https://github.com/beeper/mcp-android" },
+      { "name": "poke-beeper-proxy", "author": "keithah", "stars": 1, "language": "JavaScript", "description": "macOS daemon for Beeper MCP tunnel", "url": "https://github.com/keithah/poke-beeper-proxy" },
+      { "name": "beeper-mcp", "author": "mimen", "stars": 0, "language": "Python", "description": "Python MCP server for chat conversations", "url": "https://github.com/mimen/beeper-mcp" },
+      { "name": "BeeperMCP", "author": "MikkoParkkola", "stars": 0, "language": "TypeScript", "description": "TypeScript MCP server", "url": "https://github.com/MikkoParkkola/BeeperMCP" },
+      { "name": "beeper-mcp-server", "author": "stopWarByWar", "stars": 1, "language": "Python", "description": "Python MCP server", "url": "https://github.com/stopWarByWar/beeper-mcp-server" }
+    ],
+    "themes": [
+      { "name": "Metrology-for-Beeper", "author": "Madelena", "stars": 41, "description": "Flat Metro design theme", "url": "https://github.com/Madelena/Metrology-for-Beeper" },
+      { "name": "beeper-custom-css", "author": "clins1994", "stars": 11, "description": "Custom CSS styles", "url": "https://github.com/clins1994/beeper-custom-css" },
+      { "name": "beeper-midnight", "author": "JaxonWright", "stars": 8, "description": "Pitch-black theme", "url": "https://github.com/JaxonWright/beeper-midnight" },
+      { "name": "Beeper-WinUI-Theme", "author": "highesttt", "stars": 4, "description": "WinUI 3 theme", "url": "https://github.com/highesttt/Beeper-WinUI-Theme" },
+      { "name": "beeper-icons-theme", "author": "MoralesJonathan", "stars": 5, "description": "Full color social media icons", "url": "https://github.com/MoralesJonathan/beeper-icons-theme" }
+    ],
+    "tools": [
+      { "name": "docker-beeper", "author": "zachatrocity", "stars": 56, "language": "Docker", "description": "Self-hosted Beeper Desktop in browser", "url": "https://github.com/zachatrocity/docker-beeper" },
+      { "name": "Beeper-install", "author": "nzxlabs", "stars": 8, "language": "Shell", "description": "Easy-install scripts (Linux/ChromeOS/Windows)", "url": "https://github.com/nzxlabs/Beeper-install" },
+      { "name": "update-beeper", "author": "beeper-community", "stars": 1, "language": "Shell", "description": "Self-healing Linux updater", "url": "https://github.com/beeper-community/update-beeper" },
+      { "name": "beepex", "author": "johnburnett", "stars": 3, "language": "Python", "description": "Export Beeper chat history", "url": "https://github.com/johnburnett/beepex" },
+      { "name": "beeper-chat-monitor", "author": "aaamgi", "stars": 3, "language": "Python", "description": "Windows Tray chat monitor", "url": "https://github.com/aaamgi/beeper-chat-monitor" },
+      { "name": "beeper-message-sync", "author": "prime-radiant-inc", "stars": 2, "language": null, "description": "Sync chat to JSONL", "url": "https://github.com/prime-radiant-inc/beeper-message-sync" },
+      { "name": "awesome-beeper", "author": "robertogogoni", "stars": 1, "language": "Markdown", "description": "Community docs & changelogs", "url": "https://github.com/robertogogoni/awesome-beeper" }
+    ],
+    "ai_projects": [
+      { "name": "CodeBeep", "author": "Mihai-Codes", "stars": 0, "language": null, "description": "AI coding agent via Matrix/Beeper + OpenCode", "url": "https://github.com/Mihai-Codes/CodeBeep" },
+      { "name": "linkedin-spam-filter", "author": "manthis", "stars": 0, "language": null, "description": "OpenClaw skill for LinkedIn spam filtering", "url": "https://github.com/manthis/linkedin-spam-filter" }
+    ],
+    "bridges_community": [
+      { "name": "imessage", "author": "lrhodin", "stars": 23, "language": "Rust", "description": "v2 Rust iMessage bridge (rustpush/bridgev2)", "url": "https://github.com/lrhodin/imessage" },
+      { "name": "matrix-line-messenger", "author": "highesttt", "stars": 14, "language": null, "description": "Matrix-LINE bridge", "url": "https://github.com/highesttt/matrix-line-messenger" },
+      { "name": "snapchat-bridge", "author": "lalomorales22", "stars": 1, "language": null, "description": "Matrix-Snapchat bridge", "url": "https://github.com/lalomorales22/snapchat-bridge" },
+      { "name": "zalo-beeper-bridge", "author": "lequocbinh04", "stars": 0, "language": null, "description": "Zalo bridge", "url": "https://github.com/lequocbinh04/zalo-beeper-bridge" },
+      { "name": "beeper-bridges", "author": "rhinot", "stars": 16, "language": "Docker", "description": "Docker Compose for self-hosted bridges", "url": "https://github.com/rhinot/beeper-bridges" }
+    ]
+  }
+}

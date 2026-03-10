@@ -1,0 +1,50 @@
+# Placeholder workflow for automated data updates
+# Future: scrape GitHub API, check changelogs, update JSON files
+
+name: Update Intelligence Data
+
+on:
+  schedule:
+    # Run weekly on Mondays at 06:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+    # Allow manual triggers
+
+jobs:
+  update-github-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # TODO: Implement automated data collection
+      # - Fetch all repos from github.com/beeper via GitHub API
+      # - Check for new Desktop API changelog entries
+      # - Monitor desktop-api-openapi for spec changes
+      # - Track community repo stars/activity
+      # - Update JSON files in data/
+
+      - name: Placeholder - Log run
+        run: |
+          echo "Intelligence update would run here"
+          echo "Last manual update: 2026-03-10"
+          echo ""
+          echo "Data sources to automate:"
+          echo "  - GitHub API: beeper org repos"
+          echo "  - GitHub API: community repos (search)"
+          echo "  - developers.beeper.com/desktop-api/changelog"
+          echo "  - beeper.com/changelog/desktop"
+          echo ""
+          echo "Implementation needed:"
+          echo "  1. GitHub API script to refresh github-ecosystem.json"
+          echo "  2. Changelog scraper for api-changelog.json"
+          echo "  3. Desktop changelog parser"
+          echo "  4. README badge auto-update"

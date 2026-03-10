@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-10T00:00:00Z",
+    "source": "Dev Community threads + GitHub activity + blog posts",
+    "count": 12
+  },
+  "people": [
+    {
+      "name": "batuhan",
+      "role": "Lead Developer, Desktop API & MCP",
+      "affiliation": "Beeper (Automattic)",
+      "areas": ["Desktop API", "MCP", "AI Bridge/AgentRemote", "Raycast extension"],
+      "matrix_id": null,
+      "github": "batuhan",
+      "notable": "Primary responder in Dev Community. Personally handles bug reports, prompt tweaking, and feature roadmap communication. Confirmed AI Chats, headless mode, webhooks on roadmap."
+    },
+    {
+      "name": "tulir",
+      "role": "Core Bridge Developer",
+      "affiliation": "Beeper (Automattic) / mautrix",
+      "areas": ["mautrix bridges", "bridge-manager", "Matrix protocol", "hungryserv"],
+      "matrix_id": "@tulir:maunium.net",
+      "github": "tulir",
+      "notable": "Creator of mautrix bridge framework. Maintains WhatsApp, Telegram, Signal, Meta, Discord, Slack bridges. Legendary in Matrix ecosystem."
+    },
+    {
+      "name": "Kishan Bagaria",
+      "role": "Founder & CEO",
+      "affiliation": "Beeper (Automattic)",
+      "areas": ["Product vision", "Strategy", "Bridge bounty program"],
+      "matrix_id": null,
+      "github": null,
+      "notable": "Beeper founder. Contact for bridge bounty program (kishan@beeper.com). Maximum $50k bounties for new bridges."
+    },
+    {
+      "name": "hifi",
+      "role": "Bridge Developer",
+      "affiliation": "Beeper (Automattic)",
+      "areas": ["Heisenbridge (IRC)", "Self-hosted bridges", "bridge-manager"],
+      "matrix_id": "@hifi:beeper.com",
+      "github": "hifi",
+      "notable": "Created Heisenbridge IRC bridge. Active in self-hosting support. Published v1.14.2 with direct websocket support."
+    },
+    {
+      "name": "blqke",
+      "role": "Community Developer",
+      "affiliation": "Community",
+      "areas": ["beepctl CLI", "Desktop API integrations"],
+      "github": "blqke",
+      "notable": "Created beepctl (30 stars), the most popular community CLI tool for Beeper."
+    },
+    {
+      "name": "KrauseFx",
+      "role": "Community Developer",
+      "affiliation": "Community",
+      "areas": ["beeper-cli", "Chat history browsing"],
+      "github": "KrauseFx",
+      "notable": "Felix Krause (former Fastlane creator). Created beeper-cli for read-only chat history."
+    },
+    {
+      "name": "lrhodin",
+      "role": "Community Bridge Developer",
+      "affiliation": "Community",
+      "areas": ["iMessage v2 bridge", "Rust", "rustpush", "bridgev2"],
+      "github": "lrhodin",
+      "notable": "Building v2 Rust iMessage bridge (23 stars). Very active with daily commits. Submitted bridge-manager PR #73."
+    },
+    {
+      "name": "zachatrocity",
+      "role": "Community Developer",
+      "affiliation": "Community",
+      "areas": ["docker-beeper", "Self-hosted Beeper in browser"],
+      "github": "zachatrocity",
+      "notable": "Created docker-beeper (56 stars), the most starred community tool. Runs Beeper Desktop in Docker."
+    },
+    {
+      "name": "Arjun Ram",
+      "role": "Early Developer Adopter",
+      "affiliation": "Community",
+      "areas": ["MCP integrations", "API feedback", "Token efficiency"],
+      "github": null,
+      "notable": "Highly active in Dev Community. Provided critical early feedback on MCP: chat ID issues, token efficiency, versioning concerns."
+    },
+    {
+      "name": "mimen1994",
+      "role": "Community Developer",
+      "affiliation": "Community",
+      "areas": ["AI writing style analysis", "Claude + Beeper integration"],
+      "github": "mimen",
+      "notable": "First to publicly share AI writing style analysis workflow with Beeper MCP. Created beeper-messaging-tools and beeper-mcp."
+    },
+    {
+      "name": "keith",
+      "role": "Community Developer",
+      "affiliation": "Community",
+      "areas": ["MCP extensions", "poke-beeper-proxy", "macOS"],
+      "github": "keithah",
+      "notable": "Created poke-beeper-proxy for tunneling Beeper MCP. Active in testing Claude Desktop extension."
+    },
+    {
+      "name": "Highest",
+      "role": "Community Developer",
+      "affiliation": "Community",
+      "areas": ["WinUI theme", "LINE bridge", "Chat search testing"],
+      "github": "highesttt",
+      "notable": "Created Beeper-WinUI-Theme (4 stars) and matrix-line-messenger bridge (14 stars)."
+    }
+  ]
+}

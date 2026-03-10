@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-10T00:00:00Z",
+    "source": "GitHub search + Dev Community mentions",
+    "count": 35
+  },
+  "categories": {
+    "official_sdks": [
+      { "name": "desktop-api-js", "language": "TypeScript", "version": "4.5.0", "stars": 21, "package": "@beeper/desktop-api", "url": "https://github.com/beeper/desktop-api-js" },
+      { "name": "desktop-api-python", "language": "Python", "version": "4.1.296", "stars": 7, "package": "git+ssh install only", "url": "https://github.com/beeper/desktop-api-python" },
+      { "name": "desktop-api-go", "language": "Go", "version": "0.4.0", "stars": 5, "package": "github.com/beeper/desktop-api-go", "url": "https://github.com/beeper/desktop-api-go" },
+      { "name": "desktop-api-cli", "language": "Go", "version": "0.2.0", "stars": 5, "package": "CLI binary", "url": "https://github.com/beeper/desktop-api-cli" },
+      { "name": "desktop-api-php", "language": "PHP", "version": null, "stars": 0, "package": null, "url": "https://github.com/beeper/desktop-api-php" },
+      { "name": "desktop-api-sql", "language": "PLpgSQL", "version": "experimental", "stars": 0, "package": null, "url": "https://github.com/beeper/desktop-api-sql" }
+    ],
+    "community_sdks": [
+      { "name": "beeper-go-sdk", "author": "cameronaaron", "language": "Go/Rust", "stars": 1, "description": "Community Go SDK with chat archiver", "url": "https://github.com/cameronaaron/beeper-go-sdk" },
+      { "name": "beeper-desktop-api", "author": "ErdemGKSL", "language": "Rust", "stars": 0, "description": "Rust crate for Beeper", "url": "https://github.com/ErdemGKSL/beeper-desktop-api" },
+      { "name": "BeeperPS", "author": "AndrewPla", "language": "PowerShell", "stars": 8, "description": "PowerShell module", "url": "https://github.com/AndrewPla/BeeperPS" },
+      { "name": "easymatrix", "author": "batuhan", "language": "Go", "stars": 0, "description": "Headless Matrix client (gomuks-based)", "url": "https://github.com/batuhan/easymatrix" }
+    ],
+    "cli_tools": [
+      { "name": "beepctl", "author": "blqke", "language": "TypeScript", "stars": 30, "description": "CLI for messaging from terminal", "url": "https://github.com/blqke/beepctl" },
+      { "name": "beeper-cli", "author": "KrauseFx", "language": "Go", "stars": 25, "description": "Read-only browse/search chat history", "url": "https://github.com/KrauseFx/beeper-cli" },
+      { "name": "beeper-messaging-tools", "author": "mimen", "language": "TypeScript", "stars": 1, "description": "Web app for Desktop API", "url": "https://github.com/mimen/beeper-messaging-tools" },
+      { "name": "beeper-wsl-proxy", "author": "BosTheCoder", "language": "Python", "stars": 0, "description": "WSL proxy for Desktop API", "url": "https://github.com/BosTheCoder/beeper-wsl-proxy" }
+    ],
+    "infrastructure": [
+      { "name": "docker-beeper", "author": "zachatrocity", "language": "Docker", "stars": 56, "description": "Self-hosted Beeper Desktop in browser", "url": "https://github.com/zachatrocity/docker-beeper" },
+      { "name": "beeper-bridges", "author": "rhinot", "language": "Docker", "stars": 16, "description": "Docker Compose for self-hosted bridges", "url": "https://github.com/rhinot/beeper-bridges" },
+      { "name": "bridge-manager-multiarch", "author": "holysoles", "language": null, "stars": 0, "description": "Multi-arch bridge-manager", "url": "https://github.com/holysoles/beeper-bridge-manager-multiarch" }
+    ]
+  }
+}
